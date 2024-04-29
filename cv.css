@@ -1,0 +1,81 @@
+/* Genel stil */
+body {
+  margin-top: 80px;
+  background-color: #efe7cc;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1eedb;
+  border-radius: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-back {
+  background-color: #c06c84;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 110px;
+}
+
+.section h2 {
+  margin: 0;
+}
+
+.name,
+.meslek {
+  margin: 0;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.meslek {
+  font-size: 20px;
+  color: grey;
+  font-weight: 600;
+}
+
+.contact {
+  float: right;
+  width: 30%;
+}
+
+.iletisim {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.information {
+  font-size: 18px;
+}
+
+/* Sertifikalar ve diğer listeler */
+.sertifikalar,
+.egitim,
+.beceriler {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.sertifikalar li,
+.egitim li,
+.beceriler li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
